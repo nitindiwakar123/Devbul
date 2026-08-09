@@ -2,23 +2,64 @@
 
 ## PHASE 0 — FOUNDATION
 
-- Project Charter
-- Project Blueprint
+- Project Charter - done
+- Project Blueprint - done
 - Engineering Workflow
-- Initial project setup
 
 ---
 
 ## PHASE 1 — REQUIREMENTS & SYSTEM DESIGN
 
-- Requirements
-- HLD
+### Requirements
+- Functional requirements
+- Non-functional requirements
+- MVP acceptance criteria
+
+### High-Level Design
+- System architecture
+- Major components
+- Component responsibilities
+- Communication between components
+- External services
+
+### Domain Design
 - Domain model
+- Core entities
+- Relationships
+- Business rules
+
+### Data Design
 - Data model
-- API design
-- AI workflow
-- VFS design
-- Security model
+- Database design
+- Storage strategy
+- VFS model
+
+### API Design
+- API boundaries
+- Endpoints
+- Request/response contracts
+- Error handling
+
+### AI Workflow Design
+- AI interaction flow
+- Generation workflow
+- Iteration workflow
+- File creation/update workflow
+
+### Low-Level Design
+- Component/module design
+- Internal interfaces
+- Class/function responsibilities
+- Important algorithms
+- State management
+- Error/failure handling
+
+### Security Design
+- Authentication
+- Authorization
+- Input validation
+- Generated-code isolation
+- Security boundaries
 
 ---
 
@@ -91,5 +132,4 @@
 - Final refinement
 - Documentation
 - Public deployment
-- MVP acceptance criteria
 - Retrospective
