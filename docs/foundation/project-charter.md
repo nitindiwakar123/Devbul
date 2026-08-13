@@ -1,11 +1,5 @@
 # Project Charter
 
-**Version:** 0.1
-**Status:** Draft
-**Date:** YYYY-MM-DD
-
----
-
 # 1. Purpose
 
 This project exists to help us become better software engineers by designing and building a complex software system from first principles.
