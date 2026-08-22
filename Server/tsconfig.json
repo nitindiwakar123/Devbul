@@ -8,7 +8,8 @@
     "strict": true,                              /* Enable all strict type-checking options */
     "esModuleInterop": true,                      /* Emits additional JavaScript to ease support for importing CommonJS modules */
     "skipLibCheck": true,                        /* Skip type checking of declaration files */
-    "forceConsistentCasingInFileNames": true     /* Disallow inconsistently-cased references to the same file */
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true     /* Disallow inconsistently-cased references to the same file */
   },
   "include": ["src/**/*"]                        /* Compile only files in the src folder */
 }
