@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const envSchema = z.object({
-    PORT: z.string(),
+    PORT: z.string().transform((val) => parseInt(val, 1000)).default(5000),
     CLIENT_URI: z.url("CLIENT_URI must be a valid connection string!"),
     MONGO_URI: z.url("MONGO_URI must be a valid connection string!"),
     REDIS_URI: z.url("REDIS must be a valid connection string!"),
